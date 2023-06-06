@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: plum;
+}
+
+section.profile {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+
+section.profile .profileContainer {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.profileContainer .profilecard {
+    width: 400px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.15rem solid rgba(0, 0, 0, 0.3);
+    border-radius: 2rem;
+    overflow: hidden;
+    background-color: navy;
+    margin-top: 2rem;
+    border-bottom: 10px solid yellow;
+}
+
+.profilecard .imgHolder {
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+}
+
+.profilecard .imgHolder img {
+    width: 50%;
+    height: 90%;
+    object-fit: cover;
+    object-position: top;
+    margin-left: 2.5cm;
+    border-radius: 50%;
+    margin-right: 2rem;
+    margin-top: 0.8rem;
+    border-right: 7px solid yellow;
+}
+
+.profilecard h3 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.profilecard h4 {
+    color: plum;
+}
+
+.profilecard p {
+    margin-top: 0.1rem;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #eee;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    text-align-last: center;
+}
+
+.profilecard .socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.profilecard .socials a {
+    text-decoration: none;
+    margin-bottom: 0.1rem;
+    opacity: 1;
+    gap: 2rem;
+}
+
+.profilecard .socials a i {
+    font-size: 2rem;
+    gap: 1rem;
+    color: plum;
+}
+
+
+.profilecard button {
+    font-size: 1.5rem;
+    border-radius: 0.4rem;
+    width: 16rem;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    background-color: plum;
+    text-decoration: none;
+}
+
+.profilecard p strong {
+    color: yellow;
+}
+
+.profilecard em {
+    color: #eee;
+}
+
+.profileContainer .profilecard2 {
+    width: 400px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+    overflow: hidden;
+    background-color: white;
+    margin-top: 2rem;
+    border-bottom: 10px solid #002366;
+}
+
+.profilecard2 .imgHolder {
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+}
+
+.profilecard2 .imgHolder img {
+    width: 50%;
+    height: 90%;
+    object-fit: cover;
+    object-position: top;
+    margin-left: 2.5cm;
+    border-radius: 50%;
+    margin-right: 2rem;
+    margin-top: 0.8rem;
+    border-right: 7px solid yellow;
+}
+
+.profilecard2 h3 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    color: black;
+}
+
+.profilecard2 h4 {
+    color: plum;
+}
+
+.profilecard2 p {
+    margin-top: 0.1rem;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: navy;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    text-align-last: center;
+}
+
+.profilecard2 .socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.profilecard2 .socials a {
+    text-decoration: none;
+    margin-bottom: 0.1rem;
+    opacity: 1;
+    gap: 2rem;
+}
+
+.profilecard2 .socials a i {
+    font-size: 2rem;
+    gap: 1rem;
+}
+
+.profilecard2 button {
+    font-size: 1.5rem;
+    border-radius: 0.4rem;
+    width: 16rem;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    background-color: #002366;
+}
+
+.profilecard2 em {
+    color: #eee;
+    text-decoration: none;
+}
+
+.profilecard p a button em {
+    text-decoration: none;
+}
